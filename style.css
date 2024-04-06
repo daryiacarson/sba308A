@@ -1,0 +1,66 @@
+h2 {
+    color: #b9e117;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #5fb356;
+    padding: 9px 17px;
+}
+
+#parkInfo {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+h3 {
+    color: rgb(67, 42, 135);
+    font-size: 25px;
+    margin-left: 60px;
+
+}
+
+body {
+    background-image: url(api.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectedPark {
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.topInfo {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
